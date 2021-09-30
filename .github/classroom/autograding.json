@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Roll Die",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testRollDie",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "One Six",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testProbabilityOneSix",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Two Sixes",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testProbabilityTwoSixes",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Three Sixes",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testProbabilityThreeSixes",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
